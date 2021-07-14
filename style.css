@@ -107,7 +107,7 @@
         transform:scale(1.1) translateY(-15px);
     }
     /*  ----------------------
-        Player Section Start 
+           Player Section 
         ---------------------- */
     
     .container{
@@ -184,7 +184,7 @@
         font-size: 22px;
         display: flex;
         justify-content: center;
-        margin-left: 490px;
+        margin-left: 480px;
         margin-bottom: 0px;
     }
     .sponser, img{
@@ -265,6 +265,9 @@
         .container{
             width: 100%;
         }
+        .sponser{
+            margin-right: 500px;
+        }
         .player{
             width: 100%;
         }
@@ -332,6 +335,9 @@
         }
         .container{
             width:100%;
+        }
+        .sponser{
+            margin-left: 140px;
         }
         .players{
             grid-template-columns: repeat(2,1fr);
